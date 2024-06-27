@@ -291,12 +291,12 @@ section{
     top: 50px;
     background-color: grey;
   }
-  .carimg{
-    height: 510px;
+.carimg {
+    height: 410px;
     position: fixed;
     right: 30px;
-    bottom:248px;
-  }
+    bottom: 248px;
+}
   .text{
     /* background-color: red; */
     height: 50px;   
