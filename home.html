@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fa fa-car" aria-hidden="true"></i> Car Rental</a>
+
+        <nav class="navbar">
+            <a href="home.html"class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Vehicle Models</a>
+            <a href="review.html">Testimonals</a>
+            <a href="blogs.html" >Our Team</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+          
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here..">
+            <label class="fas fa-search"></label>
+        </form>
+
+         <!-- login -->
+
+         <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p>forget your password <a href="#"> click here</a></p>
+            <p>don't have an account? <a href="#"> create now</a></p>
+            <input type="submit" value="login" class="btn">
+        </form>
+
+        
+    </header>
+
+    <!-- header section ends -->
+
+
+    <!-- main div strt here -->
+   
+    
+      
+             <div class="design_Sec">
+               <img src="https://www.olacabs.com/webstatic/img/fleet-image/prime-sedan.png" alt="car_img" class="carimg">
+             </div>
+        </div>
+              <div class="text">
+                 <p>Moving people,<br>and the world</p>
+              </div> 
+              <div class="box-container">
+      
+               
+                <section class="availability">
+
+                    <form action="">
+              
+                      
+                       <div class="box">
+                          <p>Search <span>*</span></p>
+                          <select name="Location" id="" class="input">
+                             <option value="1">origin city</option>
+                             <option value="2">Goa</option>
+                             <option value="3">New Delhi</option>
+                             <option value="4">Mumbai</option>
+                             <option value="5">Bangalore</option>
+                             <option value="6">Hyderabad</option>
+                             <option value="1"> Pune</option>
+                             <option value="2"> Jaipur</option>
+                             <option value="3"> Ahmedabad</option>
+                             <option value="3">  Chennai</option>
+                             <option value="2">Dubai</option>
+                             <option value="3">Singapore</option>
+                             <option value="4"> London</option>
+                             <option value="5">Maldives</option>
+                             <option value="6">Bangkok</option>
+                             <option value="1"> Paris</option>
+                             <option value="2"> Amsterdam</option>
+                             <option value="3"> Bali</option>
+                             <option value="3"> Hong Kong</option>
+                            
+                             <div class="box-shadow">
+                                
+                                   onfocus="this.placeholder = ''" onfocusout="this.placeholder = 'Search destination or hotels'"
+                                   class="form-control search-form autosuggest ui-autocomplete-input ui-autocomplete-input-has-clear"
+                                   autocomplete="off" data-stype="1">
+                                <span tabindex="-1" class="ui-autocomplete-clear"
+                                   style="position: absolute; top: 0px; left: 1033px; display: inline-block; right: 30px; font-size: 25px; cursor: pointer; outline: none;">
+                                </span>
+                             </div>
+                    
+                          </select>
+                       </div>
+              
+              
+                       <div class="box">
+                          <p>start date <span>*</span></p>
+                          <input type="date" class="input">
+                       </div>
+              
+                       <div class="box">
+                          <p>end date <span>*</span></p>
+                          <input type="date" class="input">
+                       </div>
+              
+                       <div class="box">
+                          <p>transfer type <span>*</span></p>
+                          <select name="adults" id="" class="input">
+                             <option value="1">transfer type</option>
+                             <option value="2"> railway drop</option>
+                             <option value="3">airpot drop</option>
+                             <option value="4">airpot pick up</option>
+                             <option value="5">railway pick up</option>
+                             
+                          </select>
+                       </div>
+              
+                       <div class="box">
+                          <p>Pickup address <span>*</span></p>
+                          <select name="Location" id="" class="input">
+                            <option value="1">Pickup address</option>
+                            <option value="2">Goa</option>
+                            <option value="3">New Delhi</option>
+                            <option value="4">Mumbai</option>
+                            <option value="5">Bangalore</option>
+                            <option value="6">Hyderabad</option>
+                            <option value="1"> Pune</option>
+                            <option value="2"> Jaipur</option>
+                            <option value="3"> Ahmedabad</option>
+                            <option value="3">  Chennai</option>
+                            <option value="2">Dubai</option>
+                            <option value="3">Singapore</option>
+                            <option value="4"> London</option>
+                            <option value="5">Maldives</option>
+                            <option value="6">Bangkok</option>
+                            <option value="1"> Paris</option>
+                            <option value="2"> Amsterdam</option>
+                            <option value="3"> Bali</option>
+                            <option value="3"> Hong Kong</option>
+                           
+                            <div class="box-shadow">
+                               
+                                  onfocus="this.placeholder = ''" onfocusout="this.placeholder = 'Search destination or hotels'"
+                                  class="form-control search-form autosuggest ui-autocomplete-input ui-autocomplete-input-has-clear"
+                                  autocomplete="off" data-stype="1">
+                               <span tabindex="-1" class="ui-autocomplete-clear"
+                                  style="position: absolute; top: 0px; left: 1033px; display: inline-block; right: 30px; font-size: 25px; cursor: pointer; outline: none;">
+                               </span>
+                            </div>
+                   
+                         </select>
+                       </div>
+              
+                       <div class="box">
+                          <p>drop address <span>*</span></p>
+                          <select name="Location" id="" class="input">
+                            <option value="1">drop address</option>
+                            <option value="2">Goa</option>
+                            <option value="3">New Delhi</option>
+                            <option value="4">Mumbai</option>
+                            <option value="5">Bangalore</option>
+                            <option value="6">Hyderabad</option>
+                            <option value="1"> Pune</option>
+                            <option value="2"> Jaipur</option>
+                            <option value="3"> Ahmedabad</option>
+                            <option value="3">  Chennai</option>
+                            <option value="2">Dubai</option>
+                            <option value="3">Singapore</option>
+                            <option value="4"> London</option>
+                            <option value="5">Maldives</option>
+                            <option value="6">Bangkok</option>
+                            <option value="1"> Paris</option>
+                            <option value="2"> Amsterdam</option>
+                            <option value="3"> Bali</option>
+                            <option value="3"> Hong Kong</option>
+                           
+                            <div class="box-shadow">
+                               
+                                  onfocus="this.placeholder = ''" onfocusout="this.placeholder = 'Search destination or hotels'"
+                                  class="form-control search-form autosuggest ui-autocomplete-input ui-autocomplete-input-has-clear"
+                                  autocomplete="off" data-stype="1">
+                               <span tabindex="-1" class="ui-autocomplete-clear"
+                                  style="position: absolute; top: 0px; left: 1033px; display: inline-block; right: 30px; font-size: 25px; cursor: pointer; outline: none;">
+                               </span>
+                            </div>
+                   
+                         </select>
+                       </div>
+              
+              
+              
+                       <input type="submit" value="check availability" class="btn">
+              
+                    </form>
+              
+                 </section>
+      
+         </div>
+      
+      </body>
+      </html>
